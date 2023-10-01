@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Ubuntu:wght@300&display=swap');
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    overflow: hidden;
+    background-color: antiquewhite;
+}
+
+.container {
+    width: 400px;
+    background-color: rgb(136, 143, 251);
+}
+
+.row {
+    margin: 8px 0;
+}
+
+.button {
+    font-size: 1.5em;
+    width: 66px;
+    padding: 15px 5px;
+    margin: 0 3px;
+    border: 2px solid rgb(35, 35, 35);
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: rgb(110, 110, 110);
+    color: white;
+}
+
+.button:hover {
+    background-color: rgb(80, 80, 80);
+    border: 2.2px solid rgb(25, 25, 25);
+    }
+
+.buttonColor {
+    background-color: rgb(255, 118, 68);
+    border: 2px solid rgb(32, 29, 29);
+}
+
+.buttonColor:hover {
+    background-color: rgb(255, 96, 38);
+    }
+
+.row input {
+    width: 291px;
+    font-size: 2em;
+    margin: 0;
+    padding: 10px 5px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+
+/* Responsive Design */
+
+@media (max-width: 450px) {
+    .container {
+        width: 350px;
+        background-color: rgb(136, 143, 251);
+    }
+
+    .button {
+        font-size: 1.2em;
+        width: 50px;
+        padding: 12px 3px;
+        margin: 0 3px;
+    }
+
+    .row input {
+        width: 230px;
+        font-size: 1.5em;
+        margin: 0;
+        padding: 9px 4px;
+    }
+}
+
+@media (max-width: 350px) {
+    .container {
+        width: 275px;
+        background-color: rgb(136, 143, 251);
+    }
+}
+
+@media (max-width: 300px) {
+    .container {
+        width: 250px;
+        background-color: rgb(136, 143, 251);
+    }
+}
